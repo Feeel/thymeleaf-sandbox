@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>Spring Boot with Thymeleaf</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+</head>
+<body>
+    <h1>Success!</h1>
+    <h3>Thanks <span th:text="${username}">your name here</span>, you have been successfully registered.</h3>
+</body>
+</html>
